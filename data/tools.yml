@@ -1,0 +1,12 @@
+tools:
+# tool category
+- title: Dec 2021
+  tool:
+  # tool loop in tool category
+  - name: Fossil Fire's album release show ft. Checker Bloom
+    location: The Shakedown in Bellingham, WA
+    date: Friday, December 3, 2021
+    image: "/images/events/checkerbloom_headshots.jpeg"
+    link: https://shakedownbellingham.com/#/events
+
+

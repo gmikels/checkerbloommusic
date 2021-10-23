@@ -1,0 +1,133 @@
+/* FONT CHANGES */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap');
+
+
+.banner .illustration {
+    height: 70vh !important;
+    max-width: 800px;
+    /*-webkit-filter: invert(100%);
+    filter: invert(100%);*/ /* Safari/Chrome */
+   
+}
+
+.navbar-brand {
+    display: none;
+}
+
+.banner {
+    height: 100vh !important;
+}
+
+@media (max-width: 991px) {
+    .banner {
+        height: 100vh !important;
+        padding-top: 20vh !important;
+    }
+}
+
+.nav-bg {
+    background-color: #222 !important;
+    background: #222 !important;
+}
+
+@media (max-width: 991px) {
+    .navigation {
+        background: #222 !important;
+    }
+}
+
+
+.ti-menu {
+    color: #fff !important;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+
+.navbar-toggler {
+height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+    font-family: 'Titillium Web', sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 300 !important;
+    text-transform: uppercase !important;
+
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        right: 0;
+        position:absolute;
+    }
+    .banner .illustration { 
+        bottom: 15vh !important;
+    }
+}
+
+.btn-transparent {
+    color: rgb(208, 114, 172) !important;
+    border-bottom: 1px solid rgb(208, 114, 172) !important;
+}
+
+a, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(208, 114, 172) !important;
+    
+}
+
+body {
+    background-color: #222 !important;
+}
+
+.navbar-collapse {
+    margin-left: 100px !important;
+}
+
+.bg-white {
+    background-color: #222 !important;
+}
+
+.shadow {
+    border-style: solid !important;
+    border-width: 4px !important;
+    border-color: #f2f2f2 !important;
+
+}
+
+a.post-title {
+    color: #f2f2f2 !important;
+    font-weight: 700 !important;
+}
+
+p, .paragraph {
+    color: #888!important;
+}
+
+.pagination .page-item.active .page-link, .nav-tab .nav-link.active, .btn-primary-new, .social-icon a {
+    background: rgb(208, 114, 172) !important;
+    color: #fff !important;
+    border: 1px solid #fff !important;
+}
+
+
+.btn-primary-new:hover, .social-icon a:hover {
+    background: #222!important;
+    border: 1px solid #fff !important;
+
+}
+.custom-header {
+    text-align: center!important;
+    color: #fff !important;
+    font-family: 'Titillium Web', sans-serif !important;
+    font-size: 60px !important;
+    font-weight: 200 !important;
+}
+
+.custom-h3 {
+    text-align: center!important;
+    color: #fff !important;
+    font-family: 'Titillium Web', sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 200 !important;
+}
